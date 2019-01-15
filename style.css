@@ -1,6 +1,6 @@
 @media screen {
-    body {
-        width: 540px;
+    .wrapper {
+        width: 100%;
         background-color: #ccffff;
         padding: 8.8px;
     }
@@ -75,11 +75,11 @@
     }
 }
 
-@media screen and (min-width:540px) {
-    body {
+@media screen and (min-width:500px) {
+    .wrapper {
         width: 100%;
         background-color: #ccffff;
-        padding: 1%;
+        padding: 8.8px;
     }
     .container1 {
         width: 98%;
@@ -179,10 +179,10 @@
 }
 
 @media screen and (min-width:660px) {
-    body {
+    .wrapper {
         width: 100%;
         background-color: #ccffff;
-        padding: 1%;
+        padding: 8.8px;
     }
     .container1 {
         width: 98%;
