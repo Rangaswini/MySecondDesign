@@ -1,282 +1,105 @@
-@media screen {
-    .wrapper {
-        width: 96%;
-        background-color: #ccffff;
-        padding: 2%;
-    }
-    .container1 {
-        width: 98%;
-        height: auto;
-        background-color: skyblue;
-        padding-top: 10px;
-    }
-    .d1redtext {
-        width: 250px;
-        height: 7%;
-        color: white;
-        margin: 10px 10px;
-        padding-top: 30px;
-        background-color: #ff0066;
-    }
-    .beauty {
-        width: 65.33%;
-        margin: 10px;
-        font-size: 70px;
-        color: white;
-    }
-    .d1text {
-        margin: 10px;
-        width: 65.66%;
-        font-size: 15px;
-        color: white;
-    }
-    .whitetext {
-        margin-left: -15px;
-        width: 90%;
-        padding: 15px;
-        background-color: white;
-        color: black;
-    }
-    .d1wnexttext {
-        width: 90%;
-        color: white;
-        padding: 15px;
-    }
-    .d1lastred {
-        background-color: #ff0066;
-        margin: 10px;
-        color: white;
-        padding: 15px;
-    }
-    .d1lastbenifits {
-        background-color: white;
-        margin: 10px;
-        padding: 15px;
-    }
-    .d1lastrequirements {
-        background-color: white;
-        margin: 10px;
-        margin-top: -10px;
-        padding: 15px;
-    }
-    .d1lastbox {
-        margin-top: -10px;
-        margin-left: 10px;
-        width: 28%;
-        height: 10%;
-        background-color: #ffffb3;
-    }
-    .container2 {
-        margin-top: -10px;
-        padding: 15px;
-        width: 430px;
-        height: auto;
-        background-color: #ffffb3;
-    }
+u {
+    text-decoration-color: lightgrey;
 }
 
-@media screen and (min-width:500px) {
-    .wrapper {
-        width: 96%;
-        background-color: #ccffff;
-        padding: 2%;
-    }
-    .container1 {
-        width: 98%;
-        height: auto;
-        margin: 5px;
-        background-color: skyblue;
-        /* z-index: 1; */
-        position: relative;
-    }
-    .d1redtext {
-        width: 30%;
-        height: 7%;
-        color: white;
-        margin: 10px 10px;
-        padding-top: 30px;
-        background-color: #ff0066;
-    }
-    .container3 {
-        position: absolute;
-        top: 0%;
-        right: 0%;
-        bottom: 0%;
-        height: 100%;
-        margin-top: -4%;
-        margin-bottom: -4%;
-        width: 15%;
-        background: #7f7f7f;
-        background: rgba(0, 0, 0, 0.5);
-        z-index: 2;
-    }
-    .container2 {
-        position: absolute;
-        top: 10%;
-        left: 70%;
-        padding-left: 15px;
-        width: 20%;
-        height: auto;
-        background-color: #ffffb3;
-        z-index: 1;
-    }
-    .beauty {
-        width: 72%;
-        margin: 10px;
-        font-size: 120px;
-        color: white;
-    }
-    .d1text {
-        margin: 10px;
-        width: 65.66%;
-        font-size: 20px;
-        color: white;
-    }
-    .whitetext {
-        margin-left: -25px;
-        width: 65.66%;
-        padding: 15px;
-        font-size: 20px;
-        background-color: white;
-        color: black;
-    }
-    .d1wnexttext {
-        color: white;
-        padding-left: 15px;
-        width: 46%;
-    }
-    .d1lastred {
-        margin-left: 65%;
-        background-color: #ff0066;
-        width: 29%;
-        /* height: auto; */
-        /* margin:10px; */
-        color: white;
-        padding: 15px;
-    }
-    .d1lastbenifits {
-        background-color: white;
-        margin-top: 3%;
-        width: 20%;
-        height: auto;
-        margin-left: 13%;
-        float: left;
-    }
-    .d1lastrequirements {
-        margin-left: 35%;
-        margin-top: -6%;
-        background-color: white;
-        width: 59%;
-        height: auto;
-    }
-    .d1lastbox {
-        margin-top: -10px;
-        margin-left: 13%;
-        width: 35%;
-        height: auto;
-        background-color: #ffffb3;
-    }
+.wrapper {
+    width: 96%;
+    background-color: rgb(192, 207, 204);
+    padding: 2%;
 }
 
-@media screen and (min-width:660px) {
-    .wrapper {
+.container1 {
+    width: 94%;
+    background-color: rgb(116, 186, 199);
+    padding: 2.78%;
+}
+
+.d1redtext {
+    width: 70%;
+    color: white;
+    padding: 6.94%;
+    margin: 2.78%;
+    background-color: #e2085f;
+}
+
+.beauty {
+    width: 65.33%;
+    margin: 2.78%;
+    font-size: 80px;
+    color: white;
+}
+
+.d1text {
+    margin: 2.78%;
+    width: 65.66%;
+    font-size: 17px;
+    line-height: 20px;
+    color: white;
+}
+
+.whitetext {
+    margin-left: -6.94%;
+    width: 90%;
+    padding: 6.94%;
+    background-color: rgb(237, 241, 241);
+    color: black;
+    line-height: 20px;
+}
+
+.d1wnexttext {
+    width: 90%;
+    color: white;
+    padding: 6.94%;
+    line-height: 20px;
+}
+
+.d1lastred {
+    background-color: #e2085f;
+    margin: 2.78%;
+    color: white;
+    padding: 4.16%;
+    line-height: 20px;
+}
+
+.d1lastbenifits {
+    background-color: rgb(237, 241, 241);
+    padding: 4.16%;
+    margin: 0px 2.78%;
+    line-height: 20px;
+}
+
+.d1lastrequirements {
+    background-color: rgb(237, 241, 241);
+    padding: 4.16%;
+    margin: 0px 2.78%;
+    line-height: 20px;
+}
+
+.d1lastbox {
+    padding: 5.55%;
+    margin-left: 2.78%;
+    width: 35%;
+    background-color: #ffffb3;
+    line-height: 20px;
+}
+
+.container2 {
+    width: 94%;
+    padding: 2.78%;
+    line-height: 35px;
+    background-color: #ffffb3;
+}
+
+@media screen and (min-width:1024px) {
+    /*.wrapper {
         width: 96%;
         background-color: #ccffff;
         padding: 2%;
     }
+    
     .container1 {
-        width: 98%;
-        height: auto;
-        margin: 5px;
+        width: 94%;
         background-color: skyblue;
-        /* z-index: 1; */
-        position: relative;
-    }
-    .d1redtext {
-        width: 20%;
-        height: 7%;
-        color: white;
-        margin: 10px 10px;
-        padding-top: 30px;
-        background-color: #ff0066;
-    }
-    .container3 {
-        position: absolute;
-        top: 0%;
-        right: 0%;
-        bottom: 0%;
-        height: 100%;
-        margin-top: -4%;
-        margin-bottom: -4%;
-        width: 15%;
-        background: #7f7f7f;
-        background: rgba(0, 0, 0, 0.5);
-        z-index: 2;
-    }
-    .container2 {
-        position: absolute;
-        top: 10%;
-        /* left: 70%; */
-        right: 0px;
-        padding-left: 15px;
-        width: 25%;
-        height: auto;
-        background-color: #ffffb3;
-        z-index: 1;
-    }
-    .beauty {
-        width: 65.66%;
-        margin: 10px;
-        font-size: 140px;
-        color: white;
-    }
-    .d1text {
-        margin: 10px;
-        width: 65.66%;
-        font-size: 20px;
-        color: white;
-    }
-    .whitetext {
-        margin-left: -25px;
-        width: 65.66%;
-        padding: 15px;
-        font-size: 20px;
-        background-color: white;
-        color: black;
-    }
-    .d1wnexttext {
-        color: white;
-        padding-left: 15px;
-        width: 46%;
-    }
-    .d1lastred {
-        margin-left: 65%;
-        background-color: #ff0066;
-        width: 29%;
-        /* height: 65%; */
-        /* margin:10px; */
-        color: white;
-        padding: 15px;
-    }
-    .d1lastbenifits {
-        background-color: white;
-        margin-top: 3%;
-        width: 20%;
-        margin-left: 13%;
-        float: left;
-    }
-    .d1lastrequirements {
-        margin-left: 35%;
-        margin-top: -3%;
-        background-color: white;
-        width: 59%;
-        height: 60%;
-    }
-    .d1lastbox {
-        margin-top: -10px;
-        margin-left: 13%;
-        width: 35%;
-        height: 8%;
-        background-color: #ffffb3;
-    }
+        padding: 10px;
+    }*/
 }
